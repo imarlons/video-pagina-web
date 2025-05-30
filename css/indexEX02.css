@@ -1,0 +1,29 @@
+body {
+    /* ajuste as propriedades abaixo para experimentar diferentes backgrounds */
+    /* cor sólida como fundo */
+    background-color: black;
+
+    /* imagem de fundo - troque a URL para testar diferentes imagens */
+    background-image: url('https://pbs.twimg.com/media/FYuPFD5WQAIdDy0.jpg:large');
+
+    /* configurações adicionais para o background */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* pode mudar para contain ou auto */
+    background-position: center;
+    /* pode usar outras posições como top, bottom, left, right */
+
+    font-family: Calibri, sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    /* para ocupar toda a tela */
+    padding: 20px;
+}
+
+.button button,
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
